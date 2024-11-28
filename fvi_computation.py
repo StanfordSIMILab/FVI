@@ -92,8 +92,7 @@ def select_high_variation_frames(frame_paths, fvi_values, top_k=5):
 
 
 if __name__ == "__main__":
-    # replace with input video path
-    video_path = "input_video.mp4" 
+    video_path = "input_video.mp4"     # replace with input video path
     output_dir = "extracted_frames"
 
     # Step 1: Extract frames from the video
